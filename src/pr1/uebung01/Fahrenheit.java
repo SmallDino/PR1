@@ -1,3 +1,5 @@
+package pr1.uebung01;
+
 import java.util.Scanner;
 
 // Programm zur Berechnung der Celsius Temperatur 
