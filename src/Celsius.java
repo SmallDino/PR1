@@ -26,9 +26,7 @@ public class Celsius {
 		// Schleife durch Eingabe von 0 verlassen
 		} while (Math.abs(c) > epsilon);
 		
-		System.out.println("... und tschüss");
+		System.out.println("... und tschÃ¼ss");
 		in.close();
 	}
 }
-
-

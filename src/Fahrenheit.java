@@ -26,7 +26,7 @@ public class Fahrenheit {
 		// Schleife durch Eingabe von 1 verlassen
 		} while (Math.abs(f - 1) > epsilon);
 		
-		System.out.println("... und tschüss");
+		System.out.println("... und tschÃ¼ss");
 		in.close();
 	}
 }

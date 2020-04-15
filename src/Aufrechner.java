@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 /* 
- * Programm zum Summieren aller geraden natürlichen Zahlen
- * sowie zum Aufsummieren aller gültigen Eingaben
+ * Programm zum Summieren aller geraden natÃ¼rlichen Zahlen
+ * sowie zum Aufsummieren aller gÃ¼ltigen Eingaben
  */
 public class Aufrechner {
 
 	public static void main(String[] args) {
-		// Benötigte Variablen deklarieren
+		// BenÃ¶tigte Variablen deklarieren
 		int input, sum = 0, inputCounter = -1;
-		// Für die Eingabe der Tastatur
+		// Tastatureingabe
 		Scanner in = new Scanner(System.in);
 		// Anleitung
 		System.out.println("Das Programm endet durch die Eingabe einer Zahl kleiner als 0.");
@@ -22,15 +22,15 @@ public class Aufrechner {
 			if (input % 2 == 0 && input > 0) {
 				sum += input;
 			}
-			// Eingabenzähler wird um 1 erhöht
+			// EingabenzÃ¤hler wird um 1 erhÃ¶ht
 			inputCounter++;
 			// Schleife wird durch alle negativen Zahlen verlassen
 		} while (input >= 0);
 
-		// Ausgabe der Summe aller geraden Zahlen und Zähler der Eingaben, mit Außnahme
+		// Ausgabe der Summe aller geraden Zahlen und ZÃ¤hler der Eingaben, mit AuÃŸnahme
 		// der letzten Eingabe
 		System.out.println("Summe aller geraden Zahlen: " + sum + '.');
-		System.out.println("Insgesamt haben sie " + inputCounter + "-mal eine gültige Zahl eingebeben.");
+		System.out.println("Insgesamt haben sie " + inputCounter + "-mal eine gÃ¼ltige Zahl eingebeben.");
 		in.close();
 	}
 }
