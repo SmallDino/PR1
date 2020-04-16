@@ -2,10 +2,6 @@ package pr1.uebung01;
 
 import java.util.Scanner;
 
-/* 
- * Programm zum Summieren aller geraden natürlichen Zahlen
- * sowie zum Aufsummieren aller gültigen Eingaben
- */
 public class Aufrechner {
 
 	public static void main(String[] args) {

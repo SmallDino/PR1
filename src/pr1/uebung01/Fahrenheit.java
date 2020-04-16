@@ -2,8 +2,6 @@ package pr1.uebung01;
 
 import java.util.Scanner;
 
-// Programm zur Berechnung der Celsius Temperatur 
-// bei bekannter Fahrenheit Temperatur
 public class Fahrenheit {
 
 	public static void main(String[] args) {
